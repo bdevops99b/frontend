@@ -10,7 +10,7 @@
     <div>
         <button ng-click="calcShipping();" ng-disabled="data.disableCalc">Calculate</button>
     </div>
-    <!-- add in shipping distance and cost -->
+    <!-- add in shipping distance  and cost -->
     <div ng-if="data.shipping">
         <div>Distance {{ data.shipping.distance }}km</div>
         <div>Cost &euro;{{ data.shipping.cost.toFixed(2) }}</div>
